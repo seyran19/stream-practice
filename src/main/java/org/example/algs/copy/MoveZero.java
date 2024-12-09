@@ -1,15 +1,17 @@
-package org.example.algs.original;
+package org.example.algs.copy;
 
 import java.util.Arrays;
+import java.util.stream.Collectors;
 
-public class Move_Zero {
+public class MoveZero {
 
     public static void main(String[] args) {
 
         int[] nums = new int[]{0, 1, 0, 3, 12};
+
         int index = 0;
 
-        for (int i = 0; i < nums.length; i++) {
+        for(int i = 0; i < nums.length; i++){
             if (nums[i] != 0){
                 nums[index] = nums[i];
                 index++;
@@ -24,6 +26,6 @@ public class Move_Zero {
         System.out.println(Arrays.toString(nums));
 
 
+
     }
 }
-
