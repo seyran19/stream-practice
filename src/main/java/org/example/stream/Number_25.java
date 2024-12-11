@@ -7,7 +7,10 @@ import java.util.List;
 /// Отсортировать такие заказы по убыванию их общей стоимости.
 /// Преобразовать результат в список строк формата:
 /// OrderID: {orderId}, Customer: {customerName}, Total: {totalSum}
-/// ["OrderID: 1, Customer: Alice, Total: 1245.00",    "OrderID: 3, Customer: Charlie, Total: 600.00"]
+///
+/// OrderId: 1 Customer: Alice Total: 1245.0
+/// OrderId: 2 Customer: Bob Total: 850.0
+/// OrderId: 3 Customer: Charlie Total: 600.0
 public class Number_25 {
 
     public static void main(String[] args) {
